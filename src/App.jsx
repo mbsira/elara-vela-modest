@@ -6,7 +6,7 @@ import EditorialBanner from "./components/EditorialBanner";
 import Bestsellers from "./components/Bestsellers";
 import Manifesto from "./components/Manifesto";
 import Footer from "./components/Footer";
-import CartSidebar from "./components/CartSidebar";
+import CartSidebar from "./components/Cartsidebar";
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(false);
