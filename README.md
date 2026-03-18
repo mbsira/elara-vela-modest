@@ -1,73 +1,99 @@
-# React + TypeScript + Vite
+# ELARA — Vela Modest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A luxury modest fashion e-commerce website with editorial design inspired by Casa Merissé.
 
-Currently, two official plugins are available:
+![ELARA Hero](./screenshots/hero.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ELARA is a fully responsive modest fashion store built from scratch with React and Tailwind CSS. It features an editorial-style layout, a full cart system, and a multi-step checkout flow.
 
-## Expanding the ESLint configuration
+---
+## Preview
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+![ELARA Full Preview](./public/your-image-name.png)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Editorial hero section with oversized typography (Black Gold font)
+- Dark / Light mode with persistence
+- Scroll reveal animations
+- Product grid with hover Quick Add
+- Fully working cart — add, remove, update quantity
+- Multi-step checkout — shipping info, payment details
+- Order confirmation / Thank You screen
+- Free shipping threshold indicator
+- Fully responsive
+
+---
+
+## Tech Stack
+
+| Tool | Usage |
+|------|-------|
+| React 18 | UI components |
+| Tailwind CSS | Styling |
+| Vite | Build tool |
+| CSS Variables | Theming |
+
+---
+
+## Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/mbsira/elara-vela-modest.git
+
+# Navigate into the project
+cd elara-vela-modest
+
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Project Structure
+
 ```
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── CollectionGrid.jsx
+│   ├── EditorialBanner.jsx
+│   ├── Bestsellers.jsx
+│   ├── Manifesto.jsx
+│   ├── Footer.jsx
+│   └── CartSidebar.jsx
+├── hooks/
+│   └── useReveal.js
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## Inspiration
+
+Designed with reference to [Casa Merissé](https://www.behance.net) editorial fashion aesthetic.
+
+---
+
+## License
+
+MIT — free to use and modify.
+
+---
+
+<p align="center">Built with React & Tailwind CSS</p>
