@@ -2,7 +2,7 @@
 
 A luxury modest fashion e-commerce website with editorial design inspired by Casa Merissé.
 
-![ELARA Hero](./screenshots/hero.png)
+![ELARA Hero](./public/Elara-screenshot.jpg)
 
 ---
 
