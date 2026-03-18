@@ -11,11 +11,6 @@ A luxury modest fashion e-commerce website with editorial design inspired by Cas
 ELARA is a fully responsive modest fashion store built from scratch with React and Tailwind CSS. It features an editorial-style layout, a full cart system, and a multi-step checkout flow.
 
 ---
-## Preview
-
-![ELARA Full Preview](./public/your-image-name.png)
-
----
 
 ## Features
 
@@ -82,11 +77,17 @@ src/
 └── index.css
 ```
 
----
-
 ## Inspiration
 
 Designed with reference to [Casa Merissé](https://www.behance.net) editorial fashion aesthetic.
+
+---
+
+## Credits
+
+- Product & lifestyle images sourced from [Pinterest](https://pinterest.com) for demo purposes only
+- Font: [Black Gold](https://www.cdnfonts.com/black-gold.font) via CDN Fonts
+- Design inspiration: [Casa Merissé on Behance](https://www.behance.net)
 
 ---
 
@@ -96,4 +97,7 @@ MIT — free to use and modify.
 
 ---
 
-<p align="center">Built with React & Tailwind CSS</p>
+<p align="center">
+  Built with React & Tailwind CSS &nbsp;•&nbsp;
+  <a href="https://www.behance.net/mbsira">View on Behance</a>
+</p>
